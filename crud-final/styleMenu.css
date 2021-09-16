@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    padding:0.5vw 0px 0.5vw 0px;
+}
+
+ul li {
+    padding: 2vw 3vw;
+    margin: 0.5vw 1vw;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgb(106, 226, 166);
+}
+
+a {
+    color: #000;
+}
